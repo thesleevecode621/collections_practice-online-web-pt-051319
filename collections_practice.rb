@@ -27,6 +27,7 @@ end
 def kesha_maker(array)
   
   array.map do |name| name[2] = "$"
+  
   array
  
 end 
