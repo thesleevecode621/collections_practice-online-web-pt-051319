@@ -35,3 +35,5 @@ end
    array.select {|x|x.start_with?("a")}
    
  end
+def  sum_array(array)
+  array.inject(:+)
