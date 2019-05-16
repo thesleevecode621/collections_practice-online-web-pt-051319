@@ -25,9 +25,8 @@ def reverse_array (array)
   
 end
 def kesha_maker(array)
-  h = []
-  name.map do |name| name[2] = "$"
-  h <<name 
-  return h
+  
+  array.map do |name| name[2] = "$"
+  array
  
 end 
